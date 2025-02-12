@@ -1,0 +1,126 @@
+/* index.css or any global CSS file */
+
+
+.out-container {
+    width: 1150px;
+    height: 653px;
+    background: white;
+    margin-left: 180px;
+    margin-top: 50px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .right {
+  
+    width: 559px;
+    height: 596px;
+    /* background-color: brown; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .innerRight {
+    width: 400px;
+    height: 510px;
+    background: white;
+    border-radius: 25px;
+  }
+  
+  .left {
+    width: 559px;
+    border-radius: 25px;
+    height: 596px;
+    /* background-c
+      olor:black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .leftImg {
+    width: 480px;
+    border-radius: 25px;
+    height: 556px;
+  }
+  
+  .signup {
+    font-weight: 600;
+    font-size: 36px;
+    margin-bottom: -15px;
+  }
+  
+  /* SignUpForm.css or App.css */
+  input {
+    font-family: 'Noto Sans', sans-serif;
+    width: 380px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-color: black;
+    border-radius: 12px;
+  
+    font-weight: 400;
+  }
+  
+  input ::placeholder {
+    color: black;
+    opacity: 1;
+  }
+  
+  .signupButton {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+    width: 400px;
+    padding: 10px;
+    margin-bottom: 10px;
+    /* border-color: black; */
+    font-weight: 600;
+    border-radius: 12px;
+    background: linear-gradient(to right, #CF24FF, #6E9AFD);
+  }
+  
+  .cntButton {
+    font-family: 'Noto Sans', sans-serif;
+    width: 400px;
+    padding: 10px;
+    margin-bottom: 10px;
+    /* border-color: black; */
+    font-weight: 500;
+    border-radius: 12px;
+    text-align: left;
+    justify-content: center;
+    font-size: 18px;
+  }
+  
+  .checkBox {
+    display: flex;
+    align-items: center;
+    font-size: 14.5px;
+    gap: 5px;
+  }
+  
+  .checkBox input {
+    width: 14px;
+    height: 11px;
+  }
+  .forgot-password {
+    text-align: center;
+  }
+  .forgot-password a {
+    color: black;
+    text-decoration: none; 
+  }
+  
+  .forgot-password a:hover {
+    text-decoration: underline; 
+  }
+  .fpswd{
+    border: none;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    background: none;
+  }
