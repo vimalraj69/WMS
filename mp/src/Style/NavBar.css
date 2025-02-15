@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navBar {
+    width: 120px;
+    min-height: 100vh;
+    background-color: #193160;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Sidebar Buttons */
+.Dboard {
+    width: 120px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-size: 16px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.img {
+    color: white;
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+
+.kiotimg {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+}
+
+.kiotBar {
+    width: 120px;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.navButtons {
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.navButtons:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+.label{
+    color: white;
+    text-decoration: none;
+}
+.navButtons {
+    text-decoration: none;  /* Removes underline */
+    color: white;  /* Keeps the text white */
+}
+
+.navButtons:hover {
+    text-decoration: none; /* Ensures no underline on hover */
+}
+
+/* Active link styling (optional) */
+.navButtons.active {
+    font-weight: bold;  /* Highlight active page */
+    background: rgba(255, 255, 255, 0.2);
+}

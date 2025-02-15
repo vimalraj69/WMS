@@ -6,72 +6,7 @@
     box-sizing: border-box;
 }
 
-.outerContainer {
-    width: 100vw;
-    min-height: 100vh;
-    display: flex;
-    background-color: #E3DEFF;
-    font-family: 'Roboto', sans-serif;
-}
 
-/* Sidebar */
-.navBar {
-    width: 120px;
-    min-height: 100vh;
-    background-color: #193160;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 20px;
-}
-
-/* Sidebar Buttons */
-.Dboard {
-    width: 120px;
-    height: 90px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    color: white;
-    font-size: 16px;
-    font-weight: 800;
-    text-align: center;
-}
-
-.img {
-    color: white;
-    width: 30px;
-    height: 30px;
-    margin: 10px;
-}
-
-.kiotimg {
-    width: 60px;
-    height: 60px;
-    border-radius: 10px;
-}
-
-.kiotBar {
-    width: 120px;
-    height: 130px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-bottom: 20px;
-}
-
-.navButtons {
-    background: none;
-    border: none;
-    cursor: pointer;
-    transition: background 0.3s;
-}
-
-.navButtons:hover {
-    background: rgba(255, 255, 255, 0.2);
-}
 
 /* Right-Side Content */
 .rightsideCont {
@@ -81,6 +16,7 @@
     display: flex;
     flex-direction: column;
     padding: 20px;
+    margin-left: 120px;
 }
 
 /* Profile */
