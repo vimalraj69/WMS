@@ -16,7 +16,7 @@
     display: flex;
     flex-direction: column;
     padding: 20px;
-    margin-left: 120px;
+
 }
 
 /* Profile */
@@ -59,7 +59,7 @@
     margin-top: 24px;
     background-color: white;
     padding: 20px;
-   
+
 
 }
 
@@ -118,7 +118,8 @@ table {
     font-family: Arial, sans-serif;
 }
 
-th, td {
+th,
+td {
     padding: 12px 15px;
     text-align: left;
 }
@@ -140,7 +141,7 @@ tr:hover {
     .outerContainer {
         flex-direction: column;
     }
-    
+
     .navBar {
         width: 100%;
         height: auto;

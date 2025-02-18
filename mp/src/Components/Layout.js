@@ -11,7 +11,7 @@ const Layout = () => {
   return (
     <div className="container">
       {!hideNav && <NavBar />}
-      <div className="content">
+      <div className="mainContent">
         <Outlet />  {/* This changes dynamically */}
       </div>
     </div>

@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
 
 * {
     margin: 0;
@@ -79,9 +80,10 @@
     background-color: #E3DEFF;
     display: flex;
     flex-direction: column;
-    padding:20px;
+    padding: 20px;
 }
-.upperDiv{
+
+.upperDiv {
     width: 99%;
     height: 90px;
     background-color: #E3DEFF;
@@ -92,14 +94,29 @@
 
 }
 
-.upInsideDiv{
+.upInsideDiv {
     width: 255px;
     height: 100%;
     /* border:2px solid rgb(124, 124, 124); */
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
     border-radius: 7px;
     background-color: white;
-    
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.lblInside {
+    font-size: 15px;
+    text-decoration: underline;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+}
+
+.details {
+    text-align: left;
+    margin: 10px 0px;
+    font-size: 20px;
 }
 
 .midDiv {
@@ -112,7 +129,7 @@
     margin-left: 60px;
 }
 
-.botDiv{
+.botDiv {
     width: 99%;
     height: 400px;
     background-color: #E3DEFF;
@@ -124,7 +141,7 @@
     align-items: center;
 }
 
-.botInsideDiv{
+.botInsideDiv {
     width: 745px;
     height: 100%;
     background-color: white;
@@ -133,18 +150,50 @@
 
 }
 
-.botInsideRightDiv{
+.botInsideRightDiv {
     width: 500px;
     height: 100%;
     background-color: white;
     border-radius: 7px;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+
 }
+
+.dropdownLabel {
+    margin: 2px;
+    font-weight: bold;
+}
+
+.dropdown {
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.sareeDetails {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.botDiv {
+    margin-top: 20px;
+    padding: 20px;
+    background: #e0e0e0;
+    text-align: center;
+    font-weight: bold;
+}
+
 @media screen and (max-width: 768px) {
     .outerContainer {
         flex-direction: column;
     }
-    
+
     .navBar {
         width: 100%;
         height: auto;

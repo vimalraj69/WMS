@@ -24,16 +24,18 @@
     flex-direction: column;
     align-items: center;
     padding-top: 20px;
-    position: fixed; /* Keeps the nav bar fixed */
+    position: fixed;
+    /* Keeps the nav bar fixed */
     left: 0;
     top: 0;
 }
 
 /* Main Content */
 .mainContent {
-    margin-left: 120px; /* Push content to the right to accommodate fixed nav */
+    margin-left: 120px;
+    /* Push content to the right to accommodate fixed nav */
     flex-grow: 1;
-    padding: 20px;
+
     overflow-y: auto;
     min-height: 100vh;
 }
