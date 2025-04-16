@@ -120,25 +120,37 @@
 }
 
 .midDiv {
-    width: 90%;
-    height: 300px;
+    width: 96%;
+    height: 400px;
     background-color: white;
     margin-top: 25px;
     border-radius: 7px;
     box-shadow: 4px 4px 10px rgba(0.3, 0.3, 0.3, 0.3);
-    margin-left: 60px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+
+    padding: 20px;
+
+}
+
+.graph {
+    width: 98%;
+    height: 600px;
 }
 
 .botDiv {
     width: 99%;
-    height: 400px;
+    height: 500px;
     background-color: #E3DEFF;
     margin-top: 15px;
-    padding: 10px;
+    padding: 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center;
+
+    text-align: left;
 }
 
 .botInsideDiv {
@@ -181,13 +193,7 @@
     background-color: #f9f9f9;
 }
 
-.botDiv {
-    margin-top: 20px;
-    padding: 20px;
-    background: #e0e0e0;
-    text-align: center;
-    font-weight: bold;
-}
+
 
 @media screen and (max-width: 768px) {
     .outerContainer {
